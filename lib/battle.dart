@@ -33,6 +33,8 @@ void battle(Character player, Character enemy) {
       print('');
       player.describe();
       enemy.describe();
+
+      round++;
     }
 
     printSeparator();
